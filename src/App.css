@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  height: 1em;
+  margin: 2em;
+}
+
+.head img {
+  max-width: 5em;
+}
+
+.head a {
+  text-decoration: none;
+  /* color: black; */
+  padding: 15px;
+}
+
+/* END OF HEADING */
+.section1 {
+  height: auto;
+}
+.section1 img {
+  max-width: 100%;
+}
+
+.surfcamp {
+  position: relative;
+  left: 43em;
+  bottom: 52em;
+  width: 35em;
+  text-align: right;
+}
+
+.surfcamp h1 {
+  position: relative;
+  font-weight: bolder;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-size: 4em;
+  color: #0288b2;
+}
+
+.surfcamp h4 {
+  position: relative;
+  font-size: 2em;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  color: aliceblue;
+  font-weight: lighter;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  margin-left: 140px;
+  margin-right: 140px;
+  position: relative;
+  bottom: 20em;
+  height: 6em;
+}
+
+.grid h4 {
+  font-size: 2em;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  color: whitesmoke;
+  line-height: 3em;
+}
+.grid p {
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-style: italic;
+  color: whitesmoke;
+  line-height: 1.7em;
+}
+.subgrid1 {
+  background-color: #0288b2;
+  border: 0.4em solid white;
+  border-radius: 7px;
+  padding: 3em;
+}
+
+.subgrid2 {
+  background-color: #1cabb3;
+  border: 0.4em solid white;
+  border-radius: 7px;
+  padding: 3em;
+}
+
+.subgrid3 {
+  background-color: #ddd40a;
+  border: 0.4em solid white;
+  border-radius: 7px;
+  padding: 3em;
+}
+/* End of Section 1 */
+
+.section2 {
+  background-color: #0288b2;
+}
+
+.whoarewe {
+  padding: 6em;
+  text-align: center;
+  color: white;
+}
+
+.whoarewe h3 {
+  font-size: 2em;
+  font-weight: lighter;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.whoarewe h1 {
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-weight: bolder;
+  font-size: 3em;
+}
+
+.whoarewe button {
+  width: 140px;
+  border-radius: 25px;
+  border: 2px solid white;
+  border-color: white;
+  background-color: #0288b2;
+  color: white;
+  line-height: 50px;
+  font-weight: lighter;
+  font-size: 15px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+/* END OF SECTION 2 */
+
+.section3 {
+  background-color: white;
+  margin-bottom: 4em;
+}
+.Summersurf {
+  background-color: #0288b2;
+  color: #ddd40a;
+  position: relative;
+  width: 32em;
+  left: 30em;
+  margin-top: 2em;
+  text-align: center;
+  padding-top: 32em;
+  padding-bottom: 1.5em;
+}
+
+.Summermain img {
+  position: relative;
+  width: 38em;
+  left: 27.5em;
+  bottom: 61em;
+  height: 25em;
+}
+
+.Summersurf h3 {
+  font-size: 2.5em;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.yellow {
+  background-color: #ddd40a;
+  color: #ddd40a;
+  position: relative;
+  width: 43em;
+  left: 25em;
+  bottom: 28em;
+  margin-top: 2em;
+  text-align: center;
+  padding-top: 24em;
+  padding-bottom: 1.5em;
+  bottom: 34em;
+}
+
+.Summermain {
+  height: 40em;
+}
+.learnmore {
+  position: relative;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  text-align: center;
+  width: 45em;
+  left: 24em;
+  bottom: 2em;
+}
+.learnmore p {
+  line-height: 1.6em;
+}
+.learnmore a {
+  text-decoration: none;
+  color: #0288b2;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+.learnmore hr {
+  width: 7.8em;
+  height: 2px;
+  background-color: #0288b2;
+  color: #0288b2;
+  left: 18.6em;
+  position: relative;
+}
+/* END OF SECTION 3 */
+
+.aSchool button {
+  width: 140px;
+  border-radius: 25px;
+  border: 2px solid white;
+  border-color: white;
+  background-color: #0288b2;
+  color: white;
+  line-height: 50px;
+  font-weight: lighter;
+  font-size: 15px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+/* END OF SECTION 3 */
+.section4 {
+  display: flex;
+  background-color: #0288b2;
+}
+
+.aSchool hr {
+  width: 6em;
+  height: 6px;
+  background-color: white;
+  color: white;
+  position: relative;
+}
+
+.aSchool {
+  margin: 5em;
+  width: 44em;
+  line-height: 1.7em;
+}
+
+.aSchool p {
+  color: white;
+  font-size: 15px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.section4 img {
+  max-width: 40%;
+  margin: 8em;
+}
+
+.aSchool h1 {
+  font-size: 45px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  color: #008ec0;
+}
+
+/* END OF SECTION 4 */
+
+.blue {
+  position: relative;
+  background-color: #0288b2;
+  width: 28em;
+  /* padding: 11em; */
+  height: 22em;
+}
+.sec5 {
+  display: grid;
+  margin: 7em;
+  position: relative;
+  height: 20em;
+}
+
+.sec5 img {
+  position: relative;
+  max-width: 100%;
+  bottom: 26em;
+  left: 5em;
+  max-width: 30em;
+}
+
+.cheap {
+  position: relative;
+  width: 30em;
+  border: 2px solid #0288b2;
+  padding: 4em;
+  bottom: 45.5em;
+  left: 30em;
+  background-color: white;
+}
+.cheap h4 {
+  color: #0288b2;
+  font-weight: lighter;
+  font-size: 2em;
+}
+.cheap p {
+  line-height: 1.7em;
+}
+
+.cheap button {
+  background-color: #0288b2;
+  color: white;
+  border: none;
+  height: 3em;
+  width: 12em;
+  font-size: 1em;
+}
+.section5 {
+}
+
+/* END OF SECTION 5 */
+.section6 {
+  display: flex;
+}
+.yoga {
+  background-color: #1cabb3;
+  color: #ddd40a;
+  width: 50%;
+  padding: 6em;
+}
+.address {
+  background-color: #008ec0;
+  width: 50%;
+  padding: 6em;
+}
+.yoga hr {
+  width: 6em;
+  height: 6px;
+  background-color: #ddd40a;
+  color: white;
+  position: relative;
+}
+
+.yoga h1 {
+  font-size: 3em;
+  width: 10em;
+  font-weight: normal;
+}
+.yoga p {
+  color: white;
+  font-size: 2em;
+}
+
+.address p {
+  color: white;
+  font-size: 1.5em;
+  width: 20em;
+  line-height: 1.5em;
+}
+
+.address h5 {
+  color: #ddd40a;
+  font-size: 1.5em;
+  line-height: 3em;
+}
+
+/*  END OF SECTION 6 */
+.section7 {
+  background-color: #293133;
+  height: 5em;
+  text-align: center;
+  padding-top: 3em;
+}
+
+.section7 a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+}
